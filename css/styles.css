@@ -152,7 +152,7 @@ color: #404bbf;
            
         
         }
-        .hero-page-container {
+        .container {
             
             padding-left: 492px;
             padding-right: 492px;
@@ -203,7 +203,7 @@ color: #404bbf;
         /* #endregion */
 
                 /* #region main section1*/
-           .section1-container {
+           .container {
              
            }
              .section1 {
@@ -211,8 +211,8 @@ color: #404bbf;
             padding-bottom: 120px;
            }
     
-           .section-title {
-                 margin-bottom: 8px;
+           .title {
+                
             }
     
            .feature-list {
@@ -229,6 +229,7 @@ color: #404bbf;
            .feature-item {
             gap: 24px;
             width: calc((100% - 72px) / 4);
+            margin-bottom: 8px;
            }
     
     
@@ -252,17 +253,17 @@ color: #404bbf;
    
         /* #endregion  */
                  /* #region main section2 */
-            .our-team-container{
-            display: flex;
-             justify-content: space-between;
-            align-items: center;
-            width: 1140px;
-            }
+           
            .our-team {
             background-color: #f4f4fd;
             margin-bottom: 72px;
            }
-    
+         .container {
+             display: flex;
+             justify-content: space-between;
+             align-items: center;
+             width: 1140px;
+         }
            .our-team-title {
             font-weight: 700;
             font-size: 36px;
@@ -322,12 +323,12 @@ color: #404bbf;
             display: flex;
             
          }
-                .our-portfolio-section {
+                .section {
                     padding-top: 120px;
                     padding-bottom: 120px;
                    
                 }
-        .our-portfolio-container {
+        .container {
         padding-left: 32px;
         padding-right: 16px;
         border: 1px solid #e7e9fc;
@@ -387,15 +388,15 @@ color: #404bbf;
           /* #region footer */
                 .footer {
                     background-color: #2e2f42;
-                    padding-top: 100px;
-                    padding-bottom:  100px;
-                    padding-left: 156px;
-                    padding-right: 156px;
-                    margin-top: 111px;
+                  
+             
                     
                    
                 }
-                .footer-container {
+                .container {
+                padding-left: 156px;
+                padding-top: 100px;
+                padding-bottom: 100px;
                 display: inline-block;
                 width: 1140px;
                 
