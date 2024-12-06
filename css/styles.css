@@ -51,13 +51,11 @@ border-bottom: 1px solid #e7e9fc;
 
 }
 .header-container {
-width: 1158px;
 display: flex;
 justify-content: space-between;
 align-items: center;
-margin: 0;
 padding-left: 15px;
- padding-right: 15px;
+padding-right: 15px;
 
 }
 
@@ -88,15 +86,15 @@ color: #2e2f42;
 .header-nav-list {
     display: flex;
     gap: 40px;
-    padding: 0;
-    margin: 0;
-    list-style: none;
-}
+    padding-top: 24px;
+     padding-bottom: 24px;
+   }
 
 .header-nav-item {
- padding-top: 24px;
-padding-bottom: 24px;
-margin: 0 auto;
+    
+ 
+
+
 
 
 }
@@ -138,8 +136,8 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
-padding-top: 30px;
-padding-bottom: 30px;
+padding-top: 24px;
+padding-bottom: 24px;
  display: block;
 }
  
@@ -212,7 +210,7 @@ color: #404bbf;
 
                 /* #region main section1*/
            
-             .section1 {
+             .section {
               padding-top: 120px;
             padding-bottom: 120px;
            }
@@ -228,10 +226,10 @@ color: #404bbf;
             display: flex;
             justify-content: space-between;
              align-items: center;
+            gap: 24px;
            }
     
            .feature-item {
-            gap: 24px;
             width: calc((100% - 72px) / 4);
             margin-right: 24px;
            }
@@ -242,7 +240,7 @@ color: #404bbf;
             line-height: 1.5;
             letter-spacing: 0.02em;
             color: #434455;
-            margin-bottom: 8px;
+            
            }
               
            .feature-link {
@@ -251,7 +249,7 @@ color: #404bbf;
             line-height: 1.2;
             letter-spacing: 0.02em;
             color: #2e2f42;
-          
+            margin-bottom: 8px;
            }
         
    
@@ -259,13 +257,16 @@ color: #404bbf;
                  /* #region main section2 */
            
            .our-team {
+            display: flex;
             background-color: #f4f4fd;
             margin-bottom: 72px;
+            padding-top: 120px;
+            padding-bottom: 120px;
+            justify-content: space-between;
+            align-items: center;
+                
            }
             .container {
-            display: flex;
-             justify-content: space-between;
-            align-items: center;
             width: 1140px;
             }
            .our-team-title {
@@ -293,10 +294,7 @@ color: #404bbf;
             margin-bottom: 120px;
             gap: 24px;
             width: calc((100% - 72px) / 4);
-            border-top-left-radius: 0px;
-            border-top-right-radius: 0px;
-            border-top-right-radius: 4px;
-            border-bottom-left-radius: 4px;
+            border-radius: 0px 0px 4px 4px;
            }
     
            .our-team-image{
@@ -310,7 +308,15 @@ color: #404bbf;
             letter-spacing: 0.02em;
              color: #2e2f42;
              margin-bottom: 8px;
+            
         }
+            .team-container {
+                display: flex;
+                padding-top: 32px;
+                padding-bottom: 32px;
+                justify-content: space-between;
+                    align-items: center;
+            }
            .our-team-link-text {
             font-size: 16px;
             line-height: 1.5;
@@ -322,10 +328,8 @@ color: #404bbf;
                 /* #endregion */
         
                 /* #region main-section3 */
-         .our-team-containe { 
-            display: flex;
-            
-         }
+        
+         
         .section {
          padding-top: 120px;
         padding-bottom: 120px;
@@ -335,8 +339,7 @@ color: #404bbf;
         padding-left: 32px;
         padding-right: 16px;
         border: 1px solid #e7e9fc;
-
-            border-top: none;
+         border-top: none;
         }
         .our-portfolio-title {
         text-transform: capitalize;
@@ -393,7 +396,7 @@ color: #404bbf;
         
           }
     
-          .container {
+          .footer-container {
               padding-left: 156px;
               padding-top: 100px;
               padding-bottom: 100px;
