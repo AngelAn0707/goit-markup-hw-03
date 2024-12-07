@@ -57,6 +57,9 @@ align-items: center;
 margin: 0 auto;
 padding-left: 15px;
 padding-right: 15px;
+width: 1158px;
+max-width: 100%;
+box-sizing: border-box;
 }
 
 .header-nav-page {
@@ -331,8 +334,7 @@ color: #404bbf;
               
         }
         .container {
-      
-        }
+                 }
         .our-portfolio-title {
         text-transform: capitalize;
         font-size: 36px;
