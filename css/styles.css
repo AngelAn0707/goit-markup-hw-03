@@ -54,7 +54,6 @@ border-bottom: 1px solid #e7e9fc;
 display: flex;
 justify-content: space-between;
 align-items: center;
-width: 1158px;
 margin: 0 auto;
 padding-left: 15px;
 padding-right: 15px;
@@ -341,7 +340,7 @@ color: #404bbf;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
-        margin-bottom: 8px;
+        margin-bottom: 72px;
         }
         
     
@@ -370,7 +369,7 @@ color: #404bbf;
         }
        
 
-        .our-portfolio-name {
+        .portfolio-name {
         font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
@@ -379,7 +378,7 @@ color: #404bbf;
         margin-bottom: 8px;
         }
     
-        .our-portfolio-dscr {
+        .portfolio-dscr {
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
