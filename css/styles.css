@@ -102,7 +102,8 @@ color:#404bbf;
 }
 .header-address {
  font-style: normal;
- display: flex;
+display: flex;
+
 }
 
 .header-list {
@@ -115,6 +116,7 @@ gap: 40px;
 .header-item {
 padding-left: 24px;
 padding-right: 24px;
+gap: 40px;
  }
 
 
@@ -274,9 +276,7 @@ color: #404bbf;
             border-radius: 0px 0px 4px 4px;
            }
     
-           .our-team-image{
-        
-           }
+           
     
            .our-team-link {
             font-weight: 500;
@@ -340,9 +340,9 @@ color: #404bbf;
         
          }
     
-        .our-portfolio-image {
+       
         
-        }
+        
         .portfolio-item-container {
         padding: 32px 16px;
         border: 1px solid #e7e9fc;
