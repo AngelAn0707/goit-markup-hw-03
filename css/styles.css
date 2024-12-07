@@ -58,8 +58,7 @@ margin: 0 auto;
 padding-left: 15px;
 padding-right: 15px;
 width: 1158px;
-max-width: 100%;
-box-sizing: border-box;
+
 }
 
 .header-nav-page {
@@ -350,15 +349,15 @@ color: #404bbf;
         display: flex;
         flex-wrap: wrap;
         column-gap: 24px;
-        
+        row-gap: 48px;
         }
         
     
         .our-portfolio-item {
         background-color: #FFFFFF;
         width: calc((100% - 48px) / 3);
-         column-gap: 24px;
-        row-gap: 48px;
+         
+        
          }
     
         .our-portfolio-image {
