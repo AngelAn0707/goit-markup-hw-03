@@ -27,9 +27,10 @@ h1,h2,h3,h4,h5,h6,p {
   margin-bottom: 0;  
 }
 .container {
-margin: 0 auto;
-padding: 0 15px;
- max-width: 1158px;
+    margin: 0 auto;
+     padding: 0 15px;
+     max-width: 1158px;
+    
   
  }
 ul,
@@ -51,7 +52,7 @@ border-bottom: 1px solid #e7e9fc;
 
 .header-container {
 display: flex;
- align-items: center;
+align-items: center;
 
 }
 
@@ -252,9 +253,7 @@ color: #404bbf;
             align-items: center;
                 
            }
-            .container {
-            width: 1140px;
-            }
+            
            .our-team-title {
             font-weight: 700;
             font-size: 36px;
