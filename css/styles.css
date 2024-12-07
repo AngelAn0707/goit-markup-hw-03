@@ -53,12 +53,11 @@ border-bottom: 1px solid #e7e9fc;
 
 .header-container {
 display: flex;
-justify-content: space-between;
+ justify-content: space-between;
 align-items: center;
 margin: 0 auto;
-padding-left: 15px;
-padding-right: 15px;
-width: 1158px
+padding: 0 15px;
+max-width: 1158px;
 
 }
 
