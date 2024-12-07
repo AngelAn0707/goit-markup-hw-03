@@ -56,7 +56,7 @@ justify-content: space-between;
 align-items: center;
 padding-left: 15px;
 padding-right: 15px;
-
+width: 1158px;
 }
 
 .header-nav-page {
@@ -91,12 +91,8 @@ color: #2e2f42;
    }
 
 .header-nav-item {
-    
- 
-
-
-
-
+padding-top: 24px;
+padding-bottom: 24px;
 }
 
 .header-nav-item-link {
@@ -160,7 +156,7 @@ color: #404bbf;
            
         
         }
-        .container {
+        .hero-page-container {
             
             padding-left: 492px;
             padding-right: 492px;
@@ -184,17 +180,17 @@ color: #404bbf;
     
     
         .hero-button {
-               font-weight: 500;
-                font-size: 16px;
-                line-height: 1.5;
-                letter-spacing: 0.04em;
-                color: #ffffff;
-                 background-color: #4d5ae5;
-                 min-width: 169px;
-                 height: 56px;
-                margin-left: 636px;
-               margin-right: 635px;
-               margin-top: 48px;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 0.04em;
+            color: #ffffff;
+            background-color: #4d5ae5;
+            min-width: 169px;
+            height: 56px;
+            margin-left: 636px;
+            margin-right: 635px;
+            margin-top: 48px;
             display: block;
             border: none;
             border-radius: 4px;
@@ -214,7 +210,7 @@ color: #404bbf;
               padding-top: 120px;
             padding-bottom: 120px;
            }
-    
+         .section-container{}
     
     
            .feature-list {
@@ -230,8 +226,9 @@ color: #404bbf;
            }
     
            .feature-item {
+        
             width: calc((100% - 72px) / 4);
-            margin-right: 24px;
+           
            }
     
     
@@ -284,15 +281,16 @@ color: #404bbf;
            .our-team-list {
             display: flex;
             justify-content: space-between;
-             align-items: center;
-            
+            align-items: center;
+            margin-right: 24px;
+            margin-right: 0;
+
            }
     
            .our-team-item {
             
             background-color: #FFFFFF;
             margin-bottom: 120px;
-            gap: 24px;
             width: calc((100% - 72px) / 4);
             border-radius: 0px 0px 4px 4px;
            }
@@ -306,8 +304,9 @@ color: #404bbf;
             font-size: 20px;
             line-height: 1.2;
             letter-spacing: 0.02em;
-             color: #2e2f42;
-             margin-bottom: 8px;
+            color: #2e2f42;
+            margin-bottom: 8px;
+            text-align: center
             
         }
             .team-container {
@@ -315,7 +314,8 @@ color: #404bbf;
                 padding-top: 32px;
                 padding-bottom: 32px;
                 justify-content: space-between;
-                    align-items: center;
+                align-items: center;
+                text-align: center
             }
            .our-team-link-text {
             font-size: 16px;
@@ -330,16 +330,13 @@ color: #404bbf;
                 /* #region main-section3 */
         
          
-        .section {
+        .our-portfolio-section {
          padding-top: 120px;
         padding-bottom: 120px;
-                   
-             }
-        .container {
-        padding-left: 32px;
-        padding-right: 16px;
-        border: 1px solid #e7e9fc;
-         border-top: none;
+              
+        }
+        .our-portfolio-container {
+      
         }
         .our-portfolio-title {
         text-transform: capitalize;
@@ -356,7 +353,7 @@ color: #404bbf;
         display: flex;
         flex-wrap: wrap;
         column-gap: 24px;
-              
+        .margin-bottom: 8px;
         }
         
     
@@ -370,7 +367,13 @@ color: #404bbf;
         .our-portfolio-image {
             margin-bottom: 32px;
         }
-    
+        .portfolio-item-contenteiner{
+        padding: 32px 16px;
+        border: 1px solid #e7e9fc;
+        border-top: none;
+        }
+       
+
         .our-portfolio-name {
         font-weight: 500;
         font-size: 20px;
@@ -397,8 +400,7 @@ color: #404bbf;
           }
     
           .footer-container {
-              padding-left: 156px;
-              padding-top: 100px;
+                padding-top: 100px;
               padding-bottom: 100px;
               display: inline-block;
               width: 1140px;
